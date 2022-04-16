@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Images/bg-pattern-top-desktop.svg), url(Images/bg-pattern-bottom-desktop.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0px 0px, 300px 120px;
+    font-family: 'League', sans-serif;
+}
+
+#main{
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    height: 50vh;
+    margin-top: 8vh;
+}
+
+#main .main-text h1{
+    font-size: 3.5rem;
+    line-height: 7vh;
+    color: hsl(300, 43%, 22%);
+    margin-left: 5vw;
+    padding-top: 2vh;
+}
+
+#main .main-text p{
+    border: 1px;
+    width: 30vw;
+    color: hsl(303, 10%, 53%);
+    font-size: 1.1rem;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    line-height: 3.5vh;
+}
+
+#main .ratings .rating1{
+    border: 1px;
+    border-radius: 6px;
+    background-color: hsl(300, 24%, 96%);
+    position: absolute;
+    right: 15vw;
+    top: 17vh;
+    padding-top: 3vh;
+    padding-right: 8vw;
+    padding-bottom: 3vh;
+    padding-left: 2vw;
+}
+
+#main .ratings .rating1 p{
+    display: inline-block;
+    padding-left: 3vw;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+@media (orientation: portrait) and (max-width: 600px){
+    #main{
+        border: 1px solid cyan;
+        width: 100%;
+    }
+
+    #main .main-text h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #main .main-text p{
+        border: 1px;
+        width: 90vw;
+        margin-left: 4vw;
+        text-align: center;
+    }
+
+    #main .ratings .rating1{
+        display: none;
+    }
+}
