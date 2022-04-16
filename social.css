@@ -98,6 +98,8 @@ body{
 
 #review{
     display: grid;
+    grid-template-columns: 100px 100px;
+    column-gap: 23vw;
     border: 1px solid red;
     width: 100%;
     height: 200vh;
@@ -106,13 +108,13 @@ body{
 
 #review .review1{
     position: relative;
+    top: 4vh;
+    left: 5vw;
     border: 1px;
     border-radius: 6px;
     width: 28vw;
     height: 40vh;
     background-color: hsl(300, 43%, 22%);
-    margin-left: 5vw;
-    margin-top: 4vh;
 }
 
 #review .review1 img{
@@ -150,7 +152,48 @@ body{
 }
 
 #review .review2{
+    position: relative;
+    top: 8vh;
+    left: 5vw;
+    border: 1px;
+    border-radius: 6px;
+    width: 28vw;
+    height: 40vh;
+    background-color: hsl(300, 43%, 22%);
+}
 
+#review .review2 img{
+    border: 1px solid green;
+    position: absolute;
+    left: 3vw;
+    top: 6.7vh;
+    border-radius: 70px;
+}
+
+#review .review2 h4{
+    position: absolute;
+    left: 8.2vw;
+    top: 7.6vh;
+    color: hsl(0, 0%, 100%);
+}
+
+#review .review2 p{
+    position: absolute;
+    left: 8.2vw;
+    top: 11.1vh;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+#review .review2 .main-text{
+    position: absolute;
+    top: 19vh;
+    left: 0vw;
+    margin-left: 1.5vw;
+    width: 25vw;
+    height: fit-content;
+    line-height: 23px;
+    color:hsl(0, 0%, 100%);
 }
 
 @media (orientation: portrait) and (max-width: 600px){
@@ -229,7 +272,7 @@ body{
         width: 66vw;
         height: 35vh;
         position: relative;
-        left: 11vw;
+        left: 16vw;
     }
 
     #review .review1 img{
@@ -253,6 +296,42 @@ body{
 
     #review .review1 .main-text{
         width: 47vw;
+        position: absolute;
+        top: 14vh;
+        left: 0vw;
+        margin-left: 7vh;
+    }
+
+    #review .review2{
+        border: 1px solid green;
+        width: 66vw;
+        height: 35vh;
+        position: relative;
+        left: -23.7vw;
+        top: 42vh;
+    }
+
+    #review .review2 img{
+        position: absolute;
+        top: 5vh;
+        width: 50px;
+        height: 50px;
+    }
+
+    #review .review2 h4{
+        position: absolute;
+        left: 15vw;
+        top: 5.6vh;
+    }
+
+    #review .review2 p{
+        position: absolute;
+        left: 15vw;
+        top: 8.1vh;
+    }
+
+    #review .review2 .main-text{
+        width: 45vw;
         position: absolute;
         top: 14vh;
         left: 0vw;
