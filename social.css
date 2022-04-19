@@ -107,7 +107,7 @@ body{
 
 #review .review1{
     position: relative;
-    top: 4vh;
+    top: 10vh;
     left: 5vw;
     border-radius: 6px;
     width: 28vw;
@@ -150,7 +150,7 @@ body{
 
 #review .review2{
     position: relative;
-    top: 8vh;
+    top: 16vh;
     left: 5vw;
     border-radius: 6px;
     width: 28vw;
@@ -193,7 +193,7 @@ body{
 
 #review .last-review{
     position: relative;
-    top: 15vh;
+    top: 22vh;
     left: 5vw;
     border-radius: 6px;
     width: 28vw;
@@ -260,7 +260,7 @@ body{
     #main .main-text p{
         border: 1px;
         width: 75vw;
-        margin-top: 3vh;
+        margin-top: 5vh;
         margin-left: 11vw;
         text-align: center;
         font-size: 1rem;
@@ -286,7 +286,7 @@ body{
 
     #main .ratings .rating2{
         width: 70vw;
-        top: 64vh;
+        top: 65vh;
         left: 14vw;
         padding-top: 3vh;
         padding-bottom: 6vh;
@@ -303,7 +303,7 @@ body{
 
     #main .ratings .rating3{
         width: 70vw;
-        top: 78vh;
+        top: 80vh;
         left: 14vw;
         padding-top: 3vh;
         padding-bottom: 6vh;
@@ -327,10 +327,11 @@ body{
     }
 
     #review .review1{
-        width: 75vw;
+        width: 74vw;
         height: 35vh;
         position: relative;
-        left: 5vw;
+        left: 6vw;
+        top: 4vh;
     }
 
     #review .review1 img{
@@ -361,10 +362,10 @@ body{
     }
 
     #review .review2{
-        width: 75vw;
+        width: 74vw;
         height: 35vh;
         position: relative;
-        left: -41.3vw;
+        left: -40.3vw;
         top: 42vh;
     }
 
@@ -396,10 +397,10 @@ body{
     }
 
     #review .last-review{
-        width: 75vw;
+        width: 74vw;
         height: 35vh;
         position: relative;
-        left: -87.7vw;
+        left: -86.7vw;
         top: 80vh;
     }
 
