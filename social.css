@@ -122,7 +122,7 @@ body{
     border-radius: 70px;
 }
 
-#review .review1 h1{
+#review .review1 h2{
     font-weight: 400;
     font-size: 1.2rem;
     position: absolute;
@@ -167,11 +167,11 @@ body{
     border-radius: 70px;
 }
 
-#review .review2 h1{
+#review .review2 h2{
     font-weight: 400;
     font-size: 1.2rem;
     position: absolute;
-    left: 8.2vw;
+    left: 8vw;
     top: 7.6vh;
     color: hsl(0, 0%, 100%);
 }
@@ -212,11 +212,11 @@ body{
     border-radius: 70px;
 }
 
-#review .last-review h1{
+#review .last-review h2{
     font-weight: 400;
     font-size: 1.2rem;
     position: absolute;
-    left: 8.2vw;
+    left: 8vw;
     top: 7.6vh;
     color: hsl(0, 0%, 100%);
 }
@@ -347,7 +347,7 @@ body{
         height: 50px;
     }
 
-    #review .review1 h1{
+    #review .review1 h2{
         font-weight: 400;
         font-size: 1.2rem;
         position: absolute;
@@ -384,7 +384,7 @@ body{
         height: 50px;
     }
 
-    #review .review2 h1{
+    #review .review2 h2{
         font-weight: 400;
         font-size: 1.2rem;
         position: absolute;
@@ -421,7 +421,7 @@ body{
         height: 50px;
     }
 
-    #review .last-review h1{
+    #review .last-review h2{
         font-weight: 400;
         font-size: 1.2rem;
         position: absolute;
