@@ -122,9 +122,11 @@ body{
     border-radius: 70px;
 }
 
-#review .review1 h4{
+#review .review1 h1{
+    font-weight: 400;
+    font-size: 1.2rem;
     position: absolute;
-    left: 8.2vw;
+    left: 8vw;
     top: 7.6vh;
     color: hsl(0, 0%, 100%);
 }
@@ -165,7 +167,9 @@ body{
     border-radius: 70px;
 }
 
-#review .review2 h4{
+#review .review2 h1{
+    font-weight: 400;
+    font-size: 1.2rem;
     position: absolute;
     left: 8.2vw;
     top: 7.6vh;
@@ -208,7 +212,9 @@ body{
     border-radius: 70px;
 }
 
-#review .last-review h4{
+#review .last-review h1{
+    font-weight: 400;
+    font-size: 1.2rem;
     position: absolute;
     left: 8.2vw;
     top: 7.6vh;
@@ -341,10 +347,12 @@ body{
         height: 50px;
     }
 
-    #review .review1 h4{
+    #review .review1 h1{
+        font-weight: 400;
+        font-size: 1.2rem;
         position: absolute;
-        left: 19vw;
-        top: 5.6vh;
+        left: 18.5vw;
+        top: 5vh;
     }
 
     #review .review1 p{
@@ -376,10 +384,12 @@ body{
         height: 50px;
     }
 
-    #review .review2 h4{
+    #review .review2 h1{
+        font-weight: 400;
+        font-size: 1.2rem;
         position: absolute;
-        left: 19vw;
-        top: 5.6vh;
+        left: 18.5vw;
+        top: 5vh;
     }
 
     #review .review2 p{
@@ -411,10 +421,12 @@ body{
         height: 50px;
     }
 
-    #review .last-review h4{
+    #review .last-review h1{
+        font-weight: 400;
+        font-size: 1.2rem;
         position: absolute;
-        left: 19vw;
-        top: 5.6vh;
+        left: 18.5vw;
+        top: 5vh;
     }
 
     #review .last-review p{
